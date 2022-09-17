@@ -1,1 +1,0 @@
-curl "localhost:4646/?x='\"\${IFS}.;\${SHELL}\${IFS}\"/tmp/xd'"
