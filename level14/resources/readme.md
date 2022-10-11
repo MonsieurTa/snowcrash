@@ -1,5 +1,6 @@
 We don't have any executable here
 We have to exploit the getflag binary
+We need to find the last call to ft_des as it is corresponding to the level14
 
 > 0x08048dec <+1190>:  movl   $0x8049220,(%esp)
 > 0x08048df3 <+1197>:  call   0x8048604 <ft_des>
